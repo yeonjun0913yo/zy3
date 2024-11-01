@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>朱薛颖</title>
+    <style>
+        .yijicaidan>li{
+            list-style: none;
+            float: none;
+            margin: 3px 0px;
+            background-color: rgb(255, 212, 219);
+            height: 40px;
+            width: 106px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            border-radius: 8px;
+            vertical-align: bottom;
+        }
+        a{
+            font-size: 20px;
+            color: rgb(137, 4, 75);
+            text-decoration: none;
+            display: flex;
+            flex-direction: row;
+            justify-content: center;
+        }
+        .yijihezi{
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+        }
+        .erjihezi{
+            position: absolute;
+            right: 608px;
+            background-color: rgb(255, 212, 219);
+            height: 120px;
+            width: 80px;
+            border-radius: 8px;
+            display: none;
+        }
+        .erjicaidan>li{
+            list-style: none;
+            margin: 10px 0px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+        .erjicaidan{
+            padding: 0px;
+        }
+        .yijicaidan>li:hover>.erjihezi{
+            display: block;
+        }
+    </style>
+</head>
+<body>
+    <div class="yijihezi">
+        <ul class="yijicaidan">
+            <li>
+                <a href="">seventeen</a>
+                <div class="erjihezi">
+                    <ul class="erjicaidan">
+                        <li><a href="">徐明浩</a></li>
+                        <li><a href="">金珉奎</a></li>
+                        <li><a href="">权顺荣</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="">TXT</a>
+                <div class="erjihezi">
+                    <ul class="erjicaidan">
+                        <li><a href="">崔然竣</a></li>
+                        <li><a href="">崔秀彬</a></li>
+                        <li><a href="">崔杋圭</a></li>
+                    </ul>
+                </div>
+            </li>
+            <li>
+                <a href="">TF</a>
+                <div class="erjihezi">
+                    <ul class="erjicaidan">
+                        <li><a href="">王俊凯</a></li>
+                        <li><a href="">王源</a></li>
+                        <li><a href="">千玺</a></li>
+                    </ul>
+                </div>
+            </li>
+        </ul>
+    </div>
+</body>
+</html>
